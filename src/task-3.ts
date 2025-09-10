@@ -1,6 +1,11 @@
-const usernames = ["alice", "bob", "charlie"];
+interface Product {
+  readonly id: number;
+  title: string;
+}
 
-const ratings = [4.5, 3.8, 5];
+const usernames: string[] = ["alice", "bob", "charlie"];
+
+const ratings: number[] = [4.5, 3.8, 5];
 
 const products = [
   { id: 1, title: "Phone" },
